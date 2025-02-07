@@ -5,7 +5,7 @@ import mysql.connector
 from datetime import datetime
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://dispenser-j87yq1n3b-nics-projects-3fed757a.vercel.app"}})  # Allow specific frontend
+CORS(app, resources={r"/*": {"origins": "https://dispenser-995ac0zww-nics-projects-3fed757a.vercel.app"}})  # Allow specific frontend
 socketio = SocketIO(app, cors_allowed_origins="*")  # Enable WebSocket support
 
 # Database connection configuration
